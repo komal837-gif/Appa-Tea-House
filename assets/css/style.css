@@ -1,0 +1,133 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background:#fff6e8;
+  color: #3c2f2f;
+  min-height: 100vh;
+}
+
+header {
+  background:#b56576;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 2rem;
+  border-bottom: 4px solid #3e2723;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #ffe5ec;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.menu {
+  background: linear-gradient(180deg, #fff, #efebe9);
+  padding: 30px 45px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.menu:hover {
+  transform: scale(1.03);
+}
+
+.menu h2 {
+  color: #4e342e;
+  border-bottom: 2px solid #a1887f;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: linear-gradient(90deg, #3e2723, #5d4037);
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+
+img {
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border: 3px solid #fff;
+}
+
+.btn {
+  background: linear-gradient(90deg, #a1887f, #d7ccc8);
+  color: #3c2f2f;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #d7ccc8, #a1887f);
+  transform: scale(1.05);
+}
+
+
+.feedback-form {
+  display: none;
+  margin: 30px auto;
+  width: 320px;
+  background: linear-gradient(180deg, #fff, #efebe9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.feedback-form input, .feedback-form textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.feedback-list {
+  margin-top: 20px;
+  background: linear-gradient(180deg, #fff, #efebe9);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback-item {
+  background: #fff7f0;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
